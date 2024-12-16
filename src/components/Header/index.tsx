@@ -6,7 +6,6 @@ import cesta from '../../assets/cesta.png'
 import { paraReal } from '../Produto'
 
 type Props = {
-  itensNoCarrinho: Produto[]
   favoritos: Produto[]
 }
 
