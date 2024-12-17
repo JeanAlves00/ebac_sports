@@ -22,7 +22,7 @@ const Header = ({ favoritos }: Props) => {
       <h1>EBAC Sports</h1>
       <div>
         <span>{favoritos.length} favoritos</span>
-        <img src={cesta} />
+        <img src={cesta} alt="Cesta de compras" />
         <span>
           {itens.length} itens, valor total: {paraReal(valorTotal)}
         </span>
